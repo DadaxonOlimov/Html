@@ -1,0 +1,29 @@
+body {
+    background-color:rgb(48, 167, 188);
+    max-width: 70%;
+    margin: auto;
+    box-shadow: 0 0 2px 1px lightgray;
+    padding: 100px 200px 50px 100px;
+}
+.fist_test {
+    color: rgb(255, 0, 0);
+}
+nav >ul>li {
+    list-style-type: none;
+    float: right;
+    margin-right: 29px;
+}
+nav >ul>li:hover{
+     background-color: white;
+     border-radius: 25px;
+     padding: 2px;
+     opacity: 0.5;
+     transition:all 0.1s step-end;
+     cursor: pointer;
+     
+ }
+ nav a{
+    text-decoration: none;
+    color: indianred;
+ }
+    
